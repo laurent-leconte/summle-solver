@@ -20,8 +20,8 @@ class Operator:
 
 operators = [
     Operator('+', add, lambda x,y:True),
-    Operator('-', sub, lambda x,y: x != y),  # only substract different numbers
     Operator('*', imul, lambda _,y: y > 1),  # only multiply numbers > 1
+    Operator('-', sub, lambda x,y: x != y),  # only substract different numbers
     Operator('/', ifloordiv, lambda x,y: y > 1 and x % y == 0),  # divisor should be greater than 1 and evenly divide x
 ]
 
@@ -44,47 +44,25 @@ def generate_solutions(numbers: List[Solution]) -> dict[int, Set[str]]:
             # ensure op1 >= op2
             if op1.value < op2.value:
                 op2, op1 = op1, op2
-            added = Solution(op1.value + op2.value, f"({op1.formula} + {op2.formula})")
-            solutions[added.value].add(added.formula)
-            if n > 2:
-                copy_added = copy.copy()
-                copy_added.append(added)
-                fifo.append(copy_added)
-            # add multiplication if op2 is larger than 1
-            if op2.value > 1:
-                mult = Solution(
-                    op1.value * op2.value, f"({op1.formula} * {op2.formula})"
-                )
-                solutions[mult.value].add(mult.formula)
+
+            for op in operators:
+                if op.precondition(op1.value, op2.value):
+                    value = op.op(op1.value, op2.value)
+                    formula = f"({op1.formula} {op.symbol} {op2.formula})"
+                    solutions[value].add(formula)
                 if n > 2:
-                    copy_mult = copy.copy()
-                    copy_mult.append(mult)
-                    fifo.append(copy_mult)
-            # add substraction if the values are different
-            if op1.value != op2.value:
-                sub = Solution(
-                    op1.value - op2.value, f"({op1.formula} - {op2.formula})"
-                )
-                solutions[sub.value].add(sub.formula)
-                if n > 2:
-                    copy_sub = copy.copy()
-                    copy_sub.append(sub)
-                    fifo.append(copy_sub)
-            # add division if op2 is not 0 or 1, and op1 is divisible by op2
-            if op2.value > 1 and op1.value % op2.value == 0:
-                divided = Solution(
-                    op1.value // op2.value, f"({op1.formula} / {op2.formula})"
-                )
-                solutions[divided.value].add(divided.formula)
-                if n > 2:
-                    copy_divided = copy.copy()
-                    copy_divided.append(divided)
-                    fifo.append(copy_divided)
+                    # if we still have at least 1 element in the original array,
+                    # add the new value to a copy and append it to the queue
+                    copy_of_copy = copy.copy()
+                    copy_of_copy.append(Solution(value, formula))
+                    fifo.append(copy_of_copy)
     return solutions
 
 
 if __name__ == "__main__":
-    numbers = [2, 3, 5, 6, 10, 10]
-    target = 708
-    solutions = generate_solutions([Solution(i, str(i)) for i in numbers])
-    print(solutions[target])
+    parser = argparse.ArgumentParser(description='Summle solver: given a target and a list of inputs, find all combinations of inputs that compute to the target value.')
+    parser.add_argument('target', nargs=1, type=int, help="the target value to reach")
+    parser.add_argument('integers', nargs="+", type=int, help="the list of integer inputs")
+    args = parser.parse_args()
+    solutions = generate_solutions([Solution(i, str(i)) for i in args.integers])
+    print(solutions[args.target[0]])
