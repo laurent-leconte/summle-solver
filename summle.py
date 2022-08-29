@@ -2,14 +2,15 @@ import argparse
 from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
-from operator import add, sub, imul, ifloordiv
-from typing import List, Set, Callable
+from operator import add, ifloordiv, imul, sub
+from typing import Callable, List, Set
 
 
 @dataclass
 class Solution:
     value: int
     formula: str
+
 
 @dataclass
 class Operator:
@@ -19,11 +20,14 @@ class Operator:
 
 
 operators = [
-    Operator('+', add, lambda x,y:True),
-    Operator('*', imul, lambda _,y: y > 1),  # only multiply numbers > 1
-    Operator('-', sub, lambda x,y: x != y),  # only substract different numbers
-    Operator('/', ifloordiv, lambda x,y: y > 1 and x % y == 0),  # divisor should be greater than 1 and evenly divide x
+    Operator("+", add, lambda x, y: True),
+    Operator("*", imul, lambda _, y: y > 1),  # only multiply numbers > 1
+    Operator("-", sub, lambda x, y: x != y),  # only substract different numbers
+    Operator(
+        "/", ifloordiv, lambda x, y: y > 1 and x % y == 0
+    ),  # divisor should be greater than 1 and evenly divide x
 ]
+
 
 def generate_solutions(numbers: List[Solution]) -> dict[int, Set[str]]:
     fifo = deque([numbers])
@@ -60,9 +64,13 @@ def generate_solutions(numbers: List[Solution]) -> dict[int, Set[str]]:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Summle solver: given a target and a list of inputs, find all combinations of inputs that compute to the target value.')
-    parser.add_argument('target', nargs=1, type=int, help="the target value to reach")
-    parser.add_argument('integers', nargs="+", type=int, help="the list of integer inputs")
+    parser = argparse.ArgumentParser(
+        description="Summle solver: given a target and a list of inputs, find all combinations of inputs that compute to the target value."
+    )
+    parser.add_argument("target", nargs=1, type=int, help="the target value to reach")
+    parser.add_argument(
+        "integers", nargs="+", type=int, help="the list of integer inputs"
+    )
     args = parser.parse_args()
     solutions = generate_solutions([Solution(i, str(i)) for i in args.integers])
     print(solutions[args.target[0]])
