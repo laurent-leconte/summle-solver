@@ -3,14 +3,16 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
 from operator import add, ifloordiv, imul, sub
-from typing import Callable, List, Set
+from typing import Callable, List, Set, Optional
 
 
-@dataclass
 class Solution:
     value: int
     formula: str
 
+    def __init__(self, value: int, formula: Optional[str]=None):
+        self.value = value
+        self.formula = formula if formula is not None else str(value)
 
 @dataclass
 class Operator:
@@ -72,5 +74,5 @@ if __name__ == "__main__":
         "integers", nargs="+", type=int, help="the list of integer inputs"
     )
     args = parser.parse_args()
-    solutions = generate_solutions([Solution(i, str(i)) for i in args.integers])
+    solutions = generate_solutions([Solution(i) for i in args.integers])
     print(solutions[args.target[0]])
