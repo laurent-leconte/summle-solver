@@ -3,16 +3,53 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
 from operator import add, ifloordiv, imul, sub
-from typing import Callable, List, Set, Optional
+from typing import Callable, List, Set, Optional, Tuple, Union, Iterable, Any
+
+
+"""
+Define a tree-like type for formulas. In pseudo-Ocaml :
+type Formula = 
+| Leaf of int
+| Node of Solution * str * Solution
+"""
+Formula = Union[int, Tuple["Solution", str, "Solution"]]
 
 
 class Solution:
     value: int
-    formula: str
+    formula: Formula
+    num_steps: int
 
-    def __init__(self, value: int, formula: Optional[str]=None):
+    def __init__(self, value: int, formula: Optional[Formula] = None):
         self.value = value
-        self.formula = formula if formula is not None else str(value)
+        if formula is not None:
+            if not isinstance(formula, tuple):
+                raise ValueError("Expecting a tuple(Solution, str, Solution)")
+            self.formula = formula
+            self.num_steps = 1 + formula[0].num_steps + formula[2].num_steps
+        else:
+            self.formula = value
+            self.num_steps = 0
+
+    def __hash__(self) -> int:
+        return hash(self.formula)
+
+    def __eq__(self, other: Any) -> bool:
+        if not isinstance(other, Solution):
+            return False
+        if self.value != other.value:
+            return False
+        if isinstance(self.formula, int) and isinstance(other.formula, int):
+            return True
+        return self.formula == other.formula
+
+    def __str__(self) -> str:
+        if isinstance(self.formula, int):
+            return str(self.value)
+        else:
+            left, op, right = self.formula
+            return f"({left}, {op}, {right})"
+
 
 @dataclass
 class Operator:
@@ -31,7 +68,7 @@ operators = [
 ]
 
 
-def generate_solutions(numbers: List[Solution]) -> dict[int, Set[str]]:
+def generate_solutions(numbers: List[Solution]) -> dict[int, Set[Solution]]:
     fifo = deque([numbers])
     solutions = defaultdict(set)
     while len(fifo) > 0:
@@ -45,24 +82,42 @@ def generate_solutions(numbers: List[Solution]) -> dict[int, Set[str]]:
         for i, j in combinations(range(n), 2):
             copy = current.copy()
             # pop j first to avoid off-by-one issues (j > i)
-            op2 = copy.pop(j)
-            op1 = copy.pop(i)
-            # ensure op1 >= op2
-            if op1.value < op2.value:
-                op2, op1 = op1, op2
+            right = copy.pop(j)
+            left = copy.pop(i)
+            # ensure left >= right
+            if left.value < right.value:
+                right, left = left, right
 
             for op in operators:
-                if op.precondition(op1.value, op2.value):
-                    value = op.op(op1.value, op2.value)
-                    formula = f"({op1.formula} {op.symbol} {op2.formula})"
-                    solutions[value].add(formula)
-                if n > 2:
-                    # if we still have at least 1 element in the original array,
-                    # add the new value to a copy and append it to the queue
-                    copy_of_copy = copy.copy()
-                    copy_of_copy.append(Solution(value, formula))
-                    fifo.append(copy_of_copy)
+                if op.precondition(left.value, right.value):
+                    value = op.op(left.value, right.value)
+                    formula = (left, op.symbol, right)
+                    solution = Solution(value, formula)
+                    solutions[value].add(solution)
+                    if n > 2:
+                        # if we still have at least 1 element in the original array,
+                        # add the new value to a copy and append it to the queue
+                        copy_of_copy = copy.copy()
+                        copy_of_copy.append(Solution(value, formula))
+                        fifo.append(copy_of_copy)
     return solutions
+
+
+def best_solution(solutions: Iterable[Solution]) -> Solution:
+    return sorted(solutions, key=(lambda s: s.num_steps))[0]
+
+
+def explain(s: Solution, header: bool = True) -> None:
+    if header:
+        print(f"{s.value} can be computed in {s.num_steps} steps:")
+    if isinstance(s.formula, int):
+        # print(f'{s.value} is an input')
+        return
+    else:
+        left, op, right = s.formula
+        explain(left, False)
+        explain(right, False)
+        print(f"{left.value} {op} {right.value} = {s.value}")
 
 
 if __name__ == "__main__":
@@ -75,4 +130,8 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     solutions = generate_solutions([Solution(i) for i in args.integers])
-    print(solutions[args.target[0]])
+    target = args.target[0]
+    if not target in solutions:
+        print(f"Could not find a solution for {target}")
+    else:
+        explain(best_solution(solutions[target]))
