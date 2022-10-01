@@ -2,7 +2,7 @@ import argparse
 from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
-from operator import add, ifloordiv, imul, sub
+from operator import add, floordiv, mul, sub
 from typing import Callable, List, Set, Optional, Tuple, Union, Iterable, Any
 
 
@@ -40,7 +40,7 @@ class Solution:
         if self.value != other.value:
             return False
         if isinstance(self.formula, int) and isinstance(other.formula, int):
-            return True
+            return self.value == other.value
         return self.formula == other.formula
 
     def __str__(self) -> str:
@@ -60,10 +60,10 @@ class Operator:
 
 operators = [
     Operator("+", add, lambda x, y: True),
-    Operator("*", imul, lambda _, y: y > 1),  # only multiply numbers > 1
+    Operator("*", mul, lambda _, y: y > 1),  # only multiply numbers > 1
     Operator("-", sub, lambda x, y: x != y),  # only substract different numbers
     Operator(
-        "/", ifloordiv, lambda x, y: y > 1 and x % y == 0
+        "/", floordiv, lambda x, y: y > 1 and x % y == 0
     ),  # divisor should be greater than 1 and evenly divide x
 ]
 
