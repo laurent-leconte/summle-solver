@@ -1,0 +1,708 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="384"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="168" width="1198.9998949013639" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 100.00% (1 1 6.2679e-05 12.160004460000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="144" width="1198.9937094765426" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 100.00% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.000632170765399385" y="120" width="1174.5883140850797" height="23"><g>
+    <title>summle.py:71:generate_solutions 97.97% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="0.000632170765399385" y="96" width="159.5587013908861" height="23"><g>
+    <title>summle.py:23:__init__ 13.38% (1571682 1571682 1.530264966 1.62699558)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="0.000632170765399385" y="72" width="8.545779939109027" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.80% (1571682 1571682 0.09673061399999994 0.09673061399999994)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="160.5593335616515" y="96" width="2.3252489167762946" height="23"><g>
+    <title>summle.py:62:&lt;lambda&gt; 0.28% (393494 393494 0.033695871 0.033695871)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="163.88458247842777" y="96" width="3.4079920432437483" height="23"><g>
+    <title>summle.py:63:&lt;lambda&gt; 0.37% (393494 393494 0.044667673000000005 0.044667673000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="168.29257452167153" y="96" width="2.9276950246287003" height="23"><g>
+    <title>summle.py:64:&lt;lambda&gt; 0.33% (393494 393494 0.039800661 0.039800661)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="172.22026954630024" y="96" width="5.204863529451399" height="23"><g>
+    <title>summle.py:66:&lt;lambda&gt; 0.52% (393494 393494 0.062875979 0.062875979)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="178.42513307575163" y="96" width="3.521217320746243" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.add&gt; 0.38% (393494 393494 0.045815023 0.045815023)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.add&gt;</text>
+</g></svg>
+<svg class="func_g" x="184.03429595481208" y="96" width="3.4210662149349638" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.mul&gt; 0.37% (379162 379162 0.044800158 0.044800158)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.mul&gt;</text>
+</g></svg>
+<svg class="func_g" x="188.45536216974705" y="96" width="3.580618576651511" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.sub&gt; 0.38% (391163 391163 0.046416956 0.046416956)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.sub&gt;</text>
+</g></svg>
+<svg class="func_g" x="193.03598074639856" y="96" width="6.540230620084362" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.63% (648165 648165 0.076407705 0.076407705)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="200.5762113664829" y="96" width="669.3686277807017" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 55.86% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="200.5762113664829" y="72" width="393.2170822327814" height="23"><g>
+    <title>summle.py:34:__hash__ 32.85% (1247601 1247601 0.21584862800000001 3.9947349150000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="200.5762113664829" y="48" width="371.9162404636327" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 31.08% (12357207 1247601 2.214758785000001 3.778886287000001)</title>
+    <rect height="100%" width="100%" fill="rgb(71, 230, 126)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="200.5762113664829" y="24" width="153.35461756502784" height="23"><g>
+    <title>summle.py:34:__hash__ 12.86% (5258821 1181124 0.7403923264658604 1.5641275020000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="200.5762113664829" y="0" width="80.28961854570933" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 6.77% (2693668 271957 0.48278105716065267 0.8237351755341399)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="594.7932935992642" y="72" width="203.08680641615086" height="23"><g>
+    <title>summle.py:37:__eq__ 17.01% (841924 841924 0.587673686 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="594.7932935992642" y="48" width="112.92697488484274" height="23"><g>
+    <title>summle.py:37:__eq__ 9.49% (2079527 1057037 0.9312886335760554 1.1544605367051866)</title>
+    <rect height="100%" width="100%" fill="rgb(57, 242, 168)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="594.7932935992642" y="24" width="16.174534879695145" height="23"><g>
+    <title>summle.py:37:__eq__ 1.43% (313489 159349 0.1403921164112605 0.1740353658553318)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="611.9678284789594" y="24" width="3.8489981856779814" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.40% (842553 842553 0.04913653727379935 0.04913653727379935)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="708.7202684841069" y="48" width="31.165744131417746" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 2.68% (5589061 5589061 0.32594635529481336 0.32594635529481336)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="870.9448391471847" y="96" width="1.4816179185083063" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'collections.deque' objects&gt; 0.21% (324081 324081 0.025147073000000002 0.025147073000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="873.4264570656927" y="96" width="2.936626435044322" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.33% (324081 324081 0.039891166000000006 0.039891166000000006)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="877.3630835007372" y="96" width="11.421347514149257" height="23"><g>
+    <title>~:0:&lt;method 'copy' of 'list' objects&gt; 1.04% (717575 717575 0.125869712 0.125869712)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'copy' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="889.7844310148864" y="96" width="6.785508436271867" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 0.65% (786988 786988 0.078893188 0.078893188)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="897.5699394511583" y="96" width="2.2157620915225693" height="23"><g>
+    <title>~:0:&lt;method 'popleft' of 'collections.deque' objects&gt; 0.27% (324082 324082 0.032586404 0.032586404)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'popleft' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0003382893199795648" y="216" width="23.404763220697635" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0003382893199795648" y="240" width="23.404763220697635" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="24.405101510017616" y="216" width="150.0132153332225" height="23"><g>
+    <title>summle.py:23:__init__ 12.58% (1571688 1571688 1.530267944 1.6269985580000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="24.405377919208664" y="240" width="150.01293892403143" height="23"><g>
+    <title>summle.py:71:generate_solutions 12.58% (1571682 1571682 1.530264966 1.62699558)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="24.405377919208664" y="264" width="150.0129389240314" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="24.405377919208664" y="288" width="150.01293892403143" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="175.4183168432401" y="216" width="174.65545933417658" height="23"><g>
+    <title>summle.py:34:__hash__ 14.64% (1247601 12357207 1.77997613 3.9947349150000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="175.4183168432401" y="240" width="78.5201667924876" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 12.86% (11109606 2495202 1.564127502 3.3043222560000003)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="175.4183168432401" y="264" width="78.5201667924876" height="23"><g>
+    <title>summle.py:34:__hash__ 18.21% (12357207 1247601 2.2147587850000003 3.778886287)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="175.4183168432401" y="288" width="34.99920520930098" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 12.86% (11109606 2495202 1.564127502 3.3043222560000003)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="211.41752205254107" y="288" width="42.52096158318661" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 1.78% (1247601 1247601 0.21584862800000001 3.9947349150000004)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="211.41752205254107" y="312" width="42.52096158318661" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="211.41752205254107" y="336" width="42.52096158318661" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="211.41752205254107" y="360" width="42.52096158318661" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="254.9384836357277" y="240" width="95.135292541689" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 1.78% (1247601 1247601 0.21584862800000001 3.9947349150000004)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="254.9384836357277" y="264" width="95.135292541689" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="254.9384836357277" y="288" width="95.135292541689" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="254.9384836357277" y="312" width="95.135292541689" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="351.0737761774167" y="216" width="165.21131796730825" height="23"><g>
+    <title>summle.py:37:__eq__ 13.85% (841924 3290588 1.684275454 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="351.0737761774167" y="240" width="64.92205294901017" height="23"><g>
+    <title>summle.py:37:__eq__ 9.02% (2448664 1244672 1.096601768 1.359388937)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="351.0737761774167" y="264" width="25.14573494848797" height="23"><g>
+    <title>summle.py:37:__eq__ 9.02% (2448664 1244672 1.096601768 1.359388937)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="377.2195111259047" y="264" width="38.776318000522174" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.83% (841924 841924 0.587673686 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="377.2195111259047" y="288" width="38.776318000522174" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="377.2195111259047" y="312" width="38.77631800052218" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="377.2195111259047" y="336" width="38.77631800052218" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="416.9958291264268" y="240" width="99.28926501829808" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.83% (841924 841924 0.587673686 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="416.9958291264268" y="264" width="99.28926501829808" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="416.9958291264268" y="288" width="99.28926501829808" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="416.9958291264268" y="312" width="99.28926501829808" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="517.2850941447249" y="216" width="2.3252489167762946" height="23"><g>
+    <title>summle.py:62:&lt;lambda&gt; 0.28% (393494 393494 0.033695871 0.033695871)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="517.2850941447249" y="240" width="2.3252489167762946" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.28% (393494 393494 0.033695871 0.033695871)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="517.2850941447249" y="264" width="2.3252489167762946" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="517.2850941447249" y="288" width="2.3252489167762946" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="520.6103430615011" y="216" width="3.4079920432437483" height="23"><g>
+    <title>summle.py:63:&lt;lambda&gt; 0.37% (393494 393494 0.044667673000000005 0.044667673000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="520.6103430615011" y="240" width="3.4079920432437483" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.37% (393494 393494 0.044667673000000005 0.044667673000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="520.6103430615011" y="264" width="3.4079920432437483" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="520.6103430615011" y="288" width="3.4079920432437483" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.018335104745" y="216" width="2.9276950246287003" height="23"><g>
+    <title>summle.py:64:&lt;lambda&gt; 0.33% (393494 393494 0.039800661 0.039800661)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.018335104745" y="240" width="2.9276950246287003" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.33% (393494 393494 0.039800661 0.039800661)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="525.018335104745" y="264" width="2.9276950246287003" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.018335104745" y="288" width="2.9276950246287003" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="528.9460301293736" y="216" width="5.204863529451399" height="23"><g>
+    <title>summle.py:66:&lt;lambda&gt; 0.52% (393494 393494 0.062875979 0.062875979)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="528.9460301293736" y="240" width="5.204863529451399" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.52% (393494 393494 0.062875979 0.062875979)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="528.9460301293736" y="264" width="5.204863529451399" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="528.9460301293736" y="288" width="5.204863529451399" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="535.1508936588251" y="216" width="273.80324471316396" height="23"><g>
+    <title>summle.py:71:generate_solutions 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="535.1508936588251" y="240" width="273.80324471316396" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="535.1508936588251" y="264" width="273.80324471316396" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="809.954138371989" y="216" width="3.521217320746243" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.add&gt; 0.38% (393494 393494 0.045815023 0.045815023)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.add&gt;</text>
+</g></svg>
+<svg class="func_g" x="809.954138371989" y="240" width="3.521217320746243" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.38% (393494 393494 0.045815023 0.045815023)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="809.954138371989" y="264" width="3.521217320746243" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="809.954138371989" y="288" width="3.521217320746243" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="815.5633012510494" y="216" width="3.4210662149349638" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.mul&gt; 0.37% (379162 379162 0.044800158 0.044800158)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.mul&gt;</text>
+</g></svg>
+<svg class="func_g" x="815.5633012510494" y="240" width="3.4210662149349638" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.37% (379162 379162 0.044800158 0.044800158)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="815.5633012510494" y="264" width="3.4210662149349638" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="815.5633012510494" y="288" width="3.4210662149349638" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="819.9843674659843" y="216" width="3.580618576651511" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.sub&gt; 0.38% (391163 391163 0.046416956 0.046416956)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.sub&gt;</text>
+</g></svg>
+<svg class="func_g" x="819.9843674659843" y="240" width="3.580618576651511" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.38% (391163 391163 0.046416956 0.046416956)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="819.9843674659843" y="264" width="3.580618576651511" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="819.9843674659843" y="288" width="3.580618576651511" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="824.5711714674568" y="216" width="217.56162289860475" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 18.21% (1247601 12357207 2.2147587850000003 3.778886287)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="824.5711714674568" y="240" width="217.56162289860475" height="23"><g>
+    <title>summle.py:34:__hash__ 18.21% (12357207 1247601 2.2147587850000003 3.778886287)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="824.5711714674568" y="264" width="97.94401673146436" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 12.86% (11109606 2495202 1.564127502 3.3043222560000003)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="824.5711714674568" y="288" width="97.94401673146436" height="23"><g>
+    <title>summle.py:34:__hash__ 18.21% (12357207 1247601 2.2147587850000003 3.778886287)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="923.5151881989211" y="264" width="118.61760616714041" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 1.78% (1247601 1247601 0.21584862800000001 3.9947349150000004)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="923.5151881989211" y="288" width="118.61760616714041" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="923.5151881989211" y="312" width="118.61760616714041" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="923.5151881989211" y="336" width="118.61760616714041" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1043.1327943660617" y="216" width="46.42126838795166" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 3.95% (8152858 8152858 0.48053573800000005 0.48053573800000005)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="1043.1327943660617" y="240" width="8.545779939109035" height="23"><g>
+    <title>summle.py:23:__init__ 0.80% (1571682 1571682 0.096730614 0.096730614)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="1043.132811838316" y="264" width="8.545762466854672" height="23"><g>
+    <title>summle.py:71:generate_solutions 12.58% (1571682 1571682 1.530264966 1.62699558)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1043.132811838316" y="288" width="8.545762466854669" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1043.132811838316" y="312" width="8.545762466854669" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1052.6785743051707" y="240" width="36.87548844884264" height="23"><g>
+    <title>summle.py:37:__eq__ 3.16% (6581176 6581176 0.383805124 0.383805124)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="1052.6785743051707" y="264" width="14.022021277066841" height="23"><g>
+    <title>summle.py:37:__eq__ 9.02% (2448664 1244672 1.096601768 1.359388937)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="1052.6785743051707" y="288" width="4.957972622675034" height="23"><g>
+    <title>summle.py:37:__eq__ 9.02% (2448664 1244672 1.096601768 1.359388937)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="1058.6365469278458" y="288" width="8.064048654391808" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.83% (841924 841924 0.587673686 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.6365469278458" y="312" width="8.064048654391808" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1058.6365469278458" y="336" width="8.064048654391808" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.6365469278458" y="360" width="8.064048654391808" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1067.7005955822376" y="264" width="21.853467171775794" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.83% (841924 841924 0.587673686 2.068080578)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1067.7005955822376" y="288" width="21.853467171775794" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1067.7005955822376" y="312" width="21.853467171775794" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1067.7005955822376" y="336" width="21.853467171775787" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1090.5540627540133" y="216" width="6.540230620084362" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.63% (648165 648165 0.076407705 0.076407705)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="1090.5540627540133" y="240" width="6.540230620084362" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.63% (648165 648165 0.076407705 0.076407705)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1090.5540627540133" y="264" width="6.540230620084362" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1090.5540627540133" y="288" width="6.540230620084362" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1098.0942933740976" y="216" width="71.06473913176946" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1098.0942933740976" y="240" width="71.06473913176946" height="23"><g>
+    <title>summle.py:71:generate_solutions 6.01% (1247601 1247601 0.7302563550000001 6.793071848)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1098.0942933740976" y="264" width="71.06473913176946" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1098.0942933740976" y="288" width="71.06473913176946" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1170.1590325058671" y="216" width="1.4816179185083063" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'collections.deque' objects&gt; 0.21% (324081 324081 0.025147073000000002 0.025147073000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1170.1590325058671" y="240" width="1.4816179185083063" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.21% (324081 324081 0.025147073000000002 0.025147073000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1170.1590325058671" y="264" width="1.4816179185083063" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1170.1590325058671" y="288" width="1.4816179185083063" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1172.6406504243753" y="216" width="2.936626435044322" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.33% (324081 324081 0.039891166000000006 0.039891166000000006)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1172.6406504243753" y="240" width="2.936626435044322" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.33% (324081 324081 0.039891166000000006 0.039891166000000006)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1172.6406504243753" y="264" width="2.936626435044322" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1172.6406504243753" y="288" width="2.936626435044322" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1176.5772768594197" y="216" width="11.421347514149257" height="23"><g>
+    <title>~:0:&lt;method 'copy' of 'list' objects&gt; 1.04% (717575 717575 0.125869712 0.125869712)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'copy' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1176.5772768594197" y="240" width="11.421347514149257" height="23"><g>
+    <title>summle.py:71:generate_solutions 1.04% (717575 717575 0.125869712 0.125869712)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1176.5772768594197" y="264" width="11.421347514149257" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1176.5772768594197" y="288" width="11.421347514149257" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1188.9987294722052" y="216" width="6.785508436271867" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 0.65% (786988 786988 0.078893188 0.078893188)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1188.9987294722052" y="240" width="6.785508436271867" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.65% (786988 786988 0.078893188 0.078893188)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1188.9987294722052" y="264" width="6.785508436271867" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1188.9987294722052" y="288" width="6.785508436271867" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1196.7842379084773" y="216" width="2.2157620915225693" height="23"><g>
+    <title>~:0:&lt;method 'popleft' of 'collections.deque' objects&gt; 0.27% (324082 324082 0.032586404 0.032586404)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'popleft' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1196.7842379084773" y="240" width="2.2157620915225693" height="23"><g>
+    <title>summle.py:71:generate_solutions 0.27% (324082 324082 0.032586404 0.032586404)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1196.7842379084773" y="264" width="2.2157620915225693" height="23"><g>
+    <title>&lt;string&gt;:1:&lt;module&gt; 22.90% (1 1 2.7846741450000003 11.912633662000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1196.7842379084773" y="288" width="2.2157620915225693" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 2.03% (1 1 0.247301713 12.159941781)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+</svg>
