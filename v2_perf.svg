@@ -1,0 +1,458 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="264"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0025175506319167367" y="96" width="1198.997482449368" height="23"><g>
+    <title>perf_measure.py:18:v2 100.00% (1 1 3.423e-06 5.312771775000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="0.0036566146761259698" y="72" width="1198.9955702312043" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 100.00% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="0.0036566146761259698" y="48" width="256.8020605709592" height="23"><g>
+    <title>summle_v2.py:24:__init__ 21.48% (1247601 1247601 1.141371987 1.141371987)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="257.8057171856354" y="48" width="6.156976779477189" height="23"><g>
+    <title>summle_v2.py:59:&lt;lambda&gt; 0.60% (393494 393494 0.03168622 0.03168622)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="264.9626939651126" y="48" width="7.527009492695964" height="23"><g>
+    <title>summle_v2.py:60:&lt;lambda&gt; 0.71% (393494 393494 0.037751792 0.037751792)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="273.4897034578085" y="48" width="6.954463682857482" height="23"><g>
+    <title>summle_v2.py:61:&lt;lambda&gt; 0.66% (393494 393494 0.035216949000000004 0.035216949000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="281.44416714066597" y="48" width="10.586357529626603" height="23"><g>
+    <title>summle_v2.py:63:&lt;lambda&gt; 0.97% (393494 393494 0.051296502 0.051296502)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="293.0305246702926" y="48" width="7.949755844917945" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.add&gt; 0.75% (393494 393494 0.039623425000000004 0.039623425000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.add&gt;</text>
+</g></svg>
+<svg class="func_g" x="301.98028051521055" y="48" width="1.2439735591071401" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.floordiv&gt; 0.19% (83782 83782 0.009934787 0.009934787)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.floordiv&gt;</text>
+</g></svg>
+<svg class="func_g" x="304.2242540743177" y="48" width="7.589872817805645" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.mul&gt; 0.72% (379162 379162 0.038030108 0.038030108)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.mul&gt;</text>
+</g></svg>
+<svg class="func_g" x="312.81412689212334" y="48" width="7.940049293612008" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.sub&gt; 0.75% (391163 391163 0.039580451 0.039580451)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.sub&gt;</text>
+</g></svg>
+<svg class="func_g" x="321.75417618573533" y="48" width="13.621992570586338" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 1.22% (648165 648165 0.06473622700000001 0.06473622700000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="336.3761687563217" y="48" width="262.90332216624734" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 21.99% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="336.3761687563217" y="24" width="77.65985736931636" height="23"><g>
+    <title>summle_v2.py:35:__hash__ 6.55% (1247601 1247601 0.21620106700000002 0.34825228900000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="336.3761687563217" y="0" width="28.826452304995268" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 2.49% (1247601 1247601 0.132051222 0.132051222)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="415.03602612563805" y="24" width="65.80136946630572" height="23"><g>
+    <title>summle_v2.py:38:__eq__ 5.57% (841924 841924 0.24050231000000002 0.295750979)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="415.03602612563805" y="0" width="11.479034770635979" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 1.04% (841924 841924 0.055248669 0.055248669)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="600.279490922569" y="48" width="3.892207791374955" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'collections.deque' objects&gt; 0.41% (324081 324081 0.021659365 0.021659365)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="605.171698713944" y="48" width="6.69512434592469" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.64% (324081 324081 0.034068771000000005 0.034068771000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="612.8668230598687" y="48" width="45.982685743353734" height="23"><g>
+    <title>~:0:&lt;method 'copy' of 'list' objects&gt; 3.92% (717575 717575 0.208007342 0.208007342)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'copy' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="659.8495088032224" y="48" width="13.888068038193419" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 1.24% (786988 786988 0.065914228 0.065914228)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="674.7375768414158" y="48" width="5.313818896572979" height="23"><g>
+    <title>~:0:&lt;method 'popleft' of 'collections.deque' objects&gt; 0.53% (324082 324082 0.027953291 0.027953291)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'popleft' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0034524279031802724" y="144" width="256.802682843702" height="23"><g>
+    <title>summle_v2.py:24:__init__ 21.48% (1247607 1247607 1.141374742 1.141374742)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="0.004074700645951725" y="168" width="256.8020605709592" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 21.48% (1247601 1247601 1.141371987 1.141371987)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="0.004074700645951725" y="192" width="256.8020605709592" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="257.8061352716051" y="144" width="47.83340506432108" height="23"><g>
+    <title>summle_v2.py:35:__hash__ 4.07% (1247601 1247601 0.21620106700000002 0.34825228900000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="257.8061352716051" y="168" width="47.83340506432108" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.07% (1247601 1247601 0.21620106700000002 0.34825228900000005)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="257.8061352716051" y="192" width="47.83340506432108" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="257.8061352716051" y="216" width="47.83340506432108" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="306.6395403359262" y="144" width="53.32233469566974" height="23"><g>
+    <title>summle_v2.py:38:__eq__ 4.53% (841924 841924 0.24050231000000002 0.295750979)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="306.6395403359262" y="168" width="53.32233469566974" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.53% (841924 841924 0.24050231000000002 0.295750979)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="306.6395403359262" y="192" width="53.32233469566974" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="306.6395403359262" y="216" width="53.32233469566974" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="360.961875031596" y="144" width="6.156976779477189" height="23"><g>
+    <title>summle_v2.py:59:&lt;lambda&gt; 0.60% (393494 393494 0.03168622 0.03168622)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="360.961875031596" y="168" width="6.156976779477189" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.60% (393494 393494 0.03168622 0.03168622)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="360.961875031596" y="192" width="6.156976779477189" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="368.11885181107317" y="144" width="7.527009492695964" height="23"><g>
+    <title>summle_v2.py:60:&lt;lambda&gt; 0.71% (393494 393494 0.037751792 0.037751792)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="368.11885181107317" y="168" width="7.527009492695964" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.71% (393494 393494 0.037751792 0.037751792)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="368.11885181107317" y="192" width="7.527009492695964" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="376.64586130376915" y="144" width="6.954463682857482" height="23"><g>
+    <title>summle_v2.py:61:&lt;lambda&gt; 0.66% (393494 393494 0.035216949000000004 0.035216949000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="376.64586130376915" y="168" width="6.954463682857482" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.66% (393494 393494 0.035216949000000004 0.035216949000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="376.64586130376915" y="192" width="6.954463682857482" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="384.6003249866266" y="144" width="10.586357529626603" height="23"><g>
+    <title>summle_v2.py:63:&lt;lambda&gt; 0.97% (393494 393494 0.051296502 0.051296502)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="384.6003249866266" y="168" width="10.586357529626603" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.97% (393494 393494 0.051296502 0.051296502)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="384.6003249866266" y="192" width="10.586357529626603" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="396.1866825162532" y="144" width="517.9478311078917" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="396.1866825162532" y="168" width="517.9478311078917" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="915.134513624145" y="144" width="7.949755844917945" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.add&gt; 0.75% (393494 393494 0.039623425000000004 0.039623425000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.add&gt;</text>
+</g></svg>
+<svg class="func_g" x="915.134513624145" y="168" width="7.949755844917945" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.75% (393494 393494 0.039623425000000004 0.039623425000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="915.134513624145" y="192" width="7.949755844917945" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="924.084269469063" y="144" width="1.2439735591071401" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.floordiv&gt; 0.19% (83782 83782 0.009934787 0.009934787)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.floordiv&gt;</text>
+</g></svg>
+<svg class="func_g" x="924.084269469063" y="168" width="1.2439735591071401" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.19% (83782 83782 0.009934787 0.009934787)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="924.084269469063" y="192" width="1.2439735591071401" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="926.32824302817" y="144" width="7.589872817805645" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.mul&gt; 0.72% (379162 379162 0.038030108 0.038030108)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.mul&gt;</text>
+</g></svg>
+<svg class="func_g" x="926.32824302817" y="168" width="7.589872817805645" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.72% (379162 379162 0.038030108 0.038030108)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="926.32824302817" y="192" width="7.589872817805645" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="934.9181158459758" y="144" width="7.940049293612008" height="23"><g>
+    <title>~:0:&lt;built-in method _operator.sub&gt; 0.75% (391163 391163 0.039580451 0.039580451)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _operator.sub&gt;</text>
+</g></svg>
+<svg class="func_g" x="934.9181158459758" y="168" width="7.940049293612008" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.75% (391163 391163 0.039580451 0.039580451)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="934.9181158459758" y="192" width="7.940049293612008" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="943.8581651395878" y="144" width="28.826452304995268" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.hash&gt; 2.49% (1247601 1247601 0.132051222 0.132051222)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.hash&gt;</text>
+</g></svg>
+<svg class="func_g" x="943.8581651395878" y="168" width="28.826452304995268" height="23"><g>
+    <title>summle_v2.py:35:__hash__ 2.49% (1247601 1247601 0.132051222 0.132051222)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__hash__</text>
+</g></svg>
+<svg class="func_g" x="943.8581651395878" y="192" width="28.826452304995268" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.07% (1247601 1247601 0.21620106700000002 0.34825228900000005)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="943.8581651395878" y="216" width="28.826452304995268" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="943.8581651395878" y="240" width="28.826452304995268" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="973.6846174445831" y="144" width="11.479034770635979" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 1.04% (841924 841924 0.055248669 0.055248669)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="973.6846174445831" y="168" width="11.479034770635979" height="23"><g>
+    <title>summle_v2.py:38:__eq__ 1.04% (841924 841924 0.055248669 0.055248669)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="973.6846174445831" y="192" width="11.479034770635979" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 4.53% (841924 841924 0.24050231000000002 0.295750979)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="973.6846174445831" y="216" width="11.479034770635979" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="973.6846174445831" y="240" width="11.479034770635979" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="986.163652215219" y="144" width="13.621992570586338" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 1.22% (648165 648165 0.06473622700000001 0.06473622700000001)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="986.163652215219" y="168" width="13.621992570586338" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 1.22% (648165 648165 0.06473622700000001 0.06473622700000001)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="986.163652215219" y="192" width="13.621992570586338" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1000.7856447858054" y="144" width="117.44209533062528" height="23"><g>
+    <title>~:0:&lt;method 'add' of 'set' objects&gt; 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'add' of 'set' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1000.7856447858054" y="168" width="117.44209533062528" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 9.87% (1247601 1247601 0.524380951 1.168384219)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1000.7856447858054" y="192" width="117.44209533062528" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1119.2277401164308" y="144" width="3.892207791374955" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'collections.deque' objects&gt; 0.41% (324081 324081 0.021659365 0.021659365)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1119.2277401164308" y="168" width="3.892207791374955" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.41% (324081 324081 0.021659365 0.021659365)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1119.2277401164308" y="192" width="3.892207791374955" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1124.1199479078057" y="144" width="6.69512434592469" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.64% (324081 324081 0.034068771000000005 0.034068771000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1124.1199479078057" y="168" width="6.69512434592469" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.64% (324081 324081 0.034068771000000005 0.034068771000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1124.1199479078057" y="192" width="6.69512434592469" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1131.8150722537302" y="144" width="45.982685743353734" height="23"><g>
+    <title>~:0:&lt;method 'copy' of 'list' objects&gt; 3.92% (717575 717575 0.208007342 0.208007342)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'copy' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1131.8150722537302" y="168" width="45.982685743353734" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 3.92% (717575 717575 0.208007342 0.208007342)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1131.8150722537302" y="192" width="45.982685743353734" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1178.7981130652338" y="144" width="13.888068038193419" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 1.24% (786988 786988 0.065914228 0.065914228)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1178.7981130652338" y="168" width="13.888068038193419" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 1.24% (786988 786988 0.065914228 0.065914228)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1178.7981130652338" y="192" width="13.888068038193419" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+<svg class="func_g" x="1193.6861811034269" y="144" width="5.313818896572979" height="23"><g>
+    <title>~:0:&lt;method 'popleft' of 'collections.deque' objects&gt; 0.53% (324082 324082 0.027953291 0.027953291)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'popleft' of 'collections.deque' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1193.6861811034269" y="168" width="5.313818896572979" height="23"><g>
+    <title>summle_v2.py:68:generate_solutions 0.53% (324082 324082 0.027953291 0.027953291)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">generate_solutions</text>
+</g></svg>
+<svg class="func_g" x="1193.6861811034269" y="192" width="5.313818896572979" height="23"><g>
+    <title>perf_measure.py:18:v2 43.25% (1 1 2.2975476450000003 5.312763309)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">v2</text>
+</g></svg>
+</svg>

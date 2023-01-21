@@ -1,47 +1,76 @@
+from ast import Call
 from time import perf_counter
-from timeit import timeit
 import gc
+from random import shuffle
 import cProfile
 import pstats
+from typing import Callable, Tuple, List
 
-from summle import generate_solutions, Solution
+import summle_v1
+import summle_v2
+import summle_v3
 
 REFERENCE_INPUT = [2, 3, 6, 7, 10, 75]
 REFERENCE_NUM_SOLUTIONS = 405677
 
-def measure_base(num_runs = 10):
-    """ Measure performance with GC disabled. Returns the average and best results over `num_runs` runs.
-    
+
+def v1():
+    solutions = summle_v1.generate_solutions(
+        [summle_v1.Solution(i) for i in REFERENCE_INPUT]
+    )
+    return solutions
+
+
+def v2():
+    solutions = summle_v2.generate_solutions(
+        [summle_v2.Solution(i) for i in REFERENCE_INPUT]
+    )
+    return solutions
+
+
+def v3():
+    solutions = summle_v3.generate_solutions(
+        [summle_v3.Solution(i) for i in REFERENCE_INPUT]
+    )
+    return solutions
+
+
+def measure_call(call: Callable, num_runs: int = 10) -> Tuple[float, float]:
+    """Measure performance with GC disabled. Returns the average and best results over `num_runs` runs.
+
     Results are deleted after each run to limit the impact of memory consumption.
     """
     results = []
     for i in range(num_runs):
         gc.disable()
         start = perf_counter()
-        solutions = generate_solutions([Solution(i) for i in REFERENCE_INPUT])
+        solutions = call()
         duration = perf_counter() - start
         results.append(duration)
         sum_solutions = sum([len(s) for s in solutions.values()])
         assert sum_solutions == REFERENCE_NUM_SOLUTIONS
         gc.enable()
-        del(solutions)
-        print(f'Run {i} took {duration}s')
-    return min(results), sum(results)/num_runs
-    
+        del solutions
+        print(f"Run {i} took {duration}s")
+    return min(results), sum(results) / num_runs
 
-def measure_base_timeit(num_runs = 10):
-    res = timeit("generate_solutions([Solution(i) for i in REFERENCE_INPUT])", 
-    setup="from summle import generate_solutions, Solution",
-    globals=globals(),
-    number=num_runs)
-    return res / num_runs
 
-# print("With timeit:", measure_base_timeit())
-# print("Homegrown:", measure_base())
+def profile_call(call: Callable):
+    with cProfile.Profile() as pr:
+        call()
+    stats = pstats.Stats(pr)
+    clean_stats = stats.strip_dirs().sort_stats("tottime")
+    clean_stats.print_stats()
+    clean_stats.dump_stats(f"{call.__name__}_perf.prof")
 
-with cProfile.Profile() as pr:
-    generate_solutions([Solution(i) for i in REFERENCE_INPUT])
-stats = pstats.Stats(pr)
-clean_stats = stats.strip_dirs().sort_stats("tottime")
-clean_stats.print_stats()
-clean_stats.dump_stats("base_perf.prof")
+
+def time(callables: List[Callable], num_rounds: int = 10) -> None:
+    shuffle(callables)
+    for c in callables:
+        print(f"**** {c.__name__} ****")
+        print(measure_call(c, num_rounds))
+
+
+if __name__ == "__main__":
+    time([v1, v2, v3])
+    # profile_call(v3)
