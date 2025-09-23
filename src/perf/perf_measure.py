@@ -6,9 +6,9 @@ import cProfile
 import pstats
 from typing import Callable, Tuple, List
 
-import summle_v1
-import summle_v2
-import summle_v3
+from algos import v1 as summle_v1
+from algos import v2 as summle_v2
+from algos import v3 as summle_v3
 
 REFERENCE_INPUT = [2, 3, 6, 7, 10, 75]
 REFERENCE_NUM_SOLUTIONS = 405677
