@@ -55,7 +55,7 @@ class Solution(BaseSolution):
     def explain(self, header: bool = True) -> list[str]:
         result = []
         if header:
-            result.append(f"{self.value} can be computed in {self.num_steps} steps:")
+            result.append(f"{self.value} can be computed in {self.num_steps} steps")
 
         match self.formula:
             case int():
@@ -67,7 +67,13 @@ class Solution(BaseSolution):
                 result.extend(right_explain)
                 result.append(f"{left.value} {op} {right.value} = {self.value}")
                 return result
-
+    
+    def used_numbers(self) -> list[int]:
+        if isinstance(self.formula, int):
+            return [self.value]
+        else:
+            left, _, right = self.formula
+            return left.used_numbers() + right.used_numbers()
 
 @dataclass
 class Operator:
