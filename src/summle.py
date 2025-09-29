@@ -28,42 +28,59 @@ def prime_factors(n: int) -> list[int]:
         factors.append(n)
     return factors
 
-def evaluate_operation(input: str, previous: int=0) -> int | None:
+def evaluate_operation(input: str, previous: int=0) -> tuple[str, int | None]:
     """
-    Evaluate if a string is a valid arithmetic operation and return the result (None if not valid).
+    Evaluate if a string is a valid arithmetic operation and compute it if so.
+    Returns a tuple of :
+    - a string with either the result or "NaN" if the operation is invalid
+    - the result as an integer or None if the operation is invalid or doesn't yield an integer result
+
     A valid operation is of the form:
-    [<left operand>] <operator> <right operand>
-    where <left operand> and <right operand> are integers (the left operand is optional, and if missing, previous is used)
-    and <operator> is one of +, -, *, /
-    and the result is an integer (if left % right != 0 for division, return None)
+    [<left operand>] <operator> [<right operand>]
+    where <left operand> and <right operand> are integers
+    (at least one operand must be supplied; if an operand is missing, previous is used)
+    and <operator> is one of +, -, *, /, p
+    (p means "prime factors ofoperand")
     Examples:
     "3 + 4" -> 7
     "10 - 2" -> 8
     "* 2" (with previous=5) -> 10
     "/ 2" (with previous=10) -> 5
+    "p 15" -> [3, 5]
+    "p" (with previous=28) -> [2, 2, 7]
     "5 / 0" -> None (division by zero)
     "3 ^ 4" -> None (invalid operator)
     "hello" -> None (not a valid operation)
     """
-    regex = r'^\s*(\d+)?\s*([\+\-\*\/])\s*(\d+)\s*$'
+    regex = r'^\s*(\d+)?\s*([\+\-\*\/])\s*(\d+)?\s*$'
     match = re.match(regex, input)
     if not match:
         return None
     left, op, right = match.groups()
+    if left is None and right is None and op != 'p':
+        return ("No input", None)  # At least one operand must be supplied
+    
+    # unary operations : require one of left, right, previous
+    if op == 'p':
+        operand = int(left) if left is not None else (int(right) if right is not None else previous)
+        return (str(prime_factors(operand)), None)
+
+    # At this point we know at least one of left, right has been supplied
     left = int(left) if left is not None else previous
-    right = int(right)
+    right = int(right) if right is not None else previous
     
     if op == '+':
-        return left + right
+        return (str(left + right), left + right)
     elif op == '-':
-        return left - right
+        return (str(left - right), left - right)
     elif op == '*':
-        return left * right
+        return (str(left * right), left * right)
     elif op == '/':
-        if right == 0 or left % right != 0:
-            return None  # Division by zero or non-integer result
-        return left // right
-    return None
+        if right == 0:
+            return ("NaN", None)  # Division by zero
+        result = left // right if left % right == 0 else left / right
+        return (str(result), result if isinstance(result, int) else None)
+    return ("NaN", None)
 
 def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int]):
     print(f"There are {len(solutions)} solutions for {target}.")
@@ -100,13 +117,11 @@ def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int
             factors = prime_factors(target)
             print(f"Prime factors of {target} are: {factors}")
         else:
-            result = evaluate_operation(user_input, previous)
-            if result is None:
-                print("NaN")
-            else:
-                print(result)
-                previous = result
-                if result == target:
+            str_result, newval = evaluate_operation(user_input, previous)
+            print(str_result)
+            if newval is not None:
+                previous = newval
+                if newval == target:
                     print("Congratulations! You've reached the target.")
                     break
 
