@@ -6,6 +6,7 @@ class BaseSolution(ABC):
 
     def used_numbers(self) -> list[int]: ...
 
+
 class BaseSolver(ABC):
     def generate_solutions(
         self, inputs: list[BaseSolution]

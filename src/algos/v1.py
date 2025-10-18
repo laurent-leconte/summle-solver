@@ -66,7 +66,7 @@ class Solution(BaseSolution):
                 result.extend(right_explain)
                 result.append(f"{left.value} {op} {right.value} = {self.value}")
                 return result
-    
+
     def used_numbers(self) -> list[int]:
         if isinstance(self.formula, int):
             return [self.value]

@@ -14,6 +14,7 @@ algos = {"v1": V1Solver, "v2": V2Solver, "v3": V3Solver}
 def best_solution(solutions: Iterable[BaseSolution]) -> BaseSolution:
     return sorted(solutions, key=(lambda s: s.num_steps))[0]
 
+
 def prime_factors(n: int) -> list[int]:
     """Return the prime factors of the given integer as a list of integers."""
     i = 2
@@ -28,7 +29,8 @@ def prime_factors(n: int) -> list[int]:
         factors.append(n)
     return factors
 
-def evaluate_operation(input: str, previous: int=0) -> tuple[str, int | None]:
+
+def evaluate_operation(input: str, previous: int = 0) -> tuple[str, int | None]:
     """
     Evaluate if a string is a valid arithmetic operation and compute it if so.
     Returns a tuple of :
@@ -52,35 +54,40 @@ def evaluate_operation(input: str, previous: int=0) -> tuple[str, int | None]:
     "3 ^ 4" -> None (invalid operator)
     "hello" -> None (not a valid operation)
     """
-    regex = r'^\s*(\d+)?\s*([\+\-\*\/])\s*(\d+)?\s*$'
+    regex = r"^\s*(\d+)?\s*([\+\-\*\/p])\s*(\d+)?\s*$"
     match = re.match(regex, input)
     if not match:
-        return None
+        return (f"Wrong format ({input})", None)
     left, op, right = match.groups()
-    if left is None and right is None and op != 'p':
+    if left is None and right is None and op != "p":
         return ("No input", None)  # At least one operand must be supplied
-    
+
     # unary operations : require one of left, right, previous
-    if op == 'p':
-        operand = int(left) if left is not None else (int(right) if right is not None else previous)
+    if op == "p":
+        operand = (
+            int(left)
+            if left is not None
+            else (int(right) if right is not None else previous)
+        )
         return (str(prime_factors(operand)), None)
 
     # At this point we know at least one of left, right has been supplied
     left = int(left) if left is not None else previous
     right = int(right) if right is not None else previous
-    
-    if op == '+':
+
+    if op == "+":
         return (str(left + right), left + right)
-    elif op == '-':
+    elif op == "-":
         return (str(left - right), left - right)
-    elif op == '*':
+    elif op == "*":
         return (str(left * right), left * right)
-    elif op == '/':
+    elif op == "/":
         if right == 0:
             return ("NaN", None)  # Division by zero
         result = left // right if left % right == 0 else left / right
         return (str(result), result if isinstance(result, int) else None)
     return ("NaN", None)
+
 
 def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int]):
     print(f"There are {len(solutions)} solutions for {target}.")
@@ -100,7 +107,9 @@ def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int
 
     previous = 0
     while True:
-        user_input = input("Enter h for a hint, p for prime factors of target, all for all solutions, or a formula (q to quit): ")
+        user_input = input(
+            "Enter h for a hint, p for prime factors of target, all for all solutions, or a formula (q to quit): "
+        )
         if user_input.lower() in ("q", "quit", "exit"):
             break
         elif user_input.lower() in ("all",):
@@ -126,7 +135,6 @@ def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int
                     break
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Summle solver: given a target and a list of inputs, find all combinations of inputs that compute to the target value."
@@ -138,7 +146,9 @@ if __name__ == "__main__":
         choices=["v1", "v2", "v3"],
         help="the algorithm version to use (default: v2)",
     )
-    parser.add_argument("-i", "--interactive", action="store_true", help="run in interactive mode")
+    parser.add_argument(
+        "-i", "--interactive", action="store_true", help="run in interactive mode"
+    )
     parser.add_argument("target", nargs=1, type=int, help="the target value to reach")
     parser.add_argument(
         "integers", nargs="+", type=int, help="the list of integer inputs"
