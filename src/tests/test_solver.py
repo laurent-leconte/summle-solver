@@ -1,9 +1,9 @@
 import pytest
 
+import summle
 from algos.v1 import Solver as V1
 from algos.v2 import Solver as V2
 from algos.v3 import Solver as V3
-import summle
 
 
 @pytest.fixture(scope="session")
