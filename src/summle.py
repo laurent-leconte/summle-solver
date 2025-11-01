@@ -1,14 +1,15 @@
 import argparse
 import re
-
 from typing import Iterable
+from urllib.request import urlopen
 
 from algos.base import BaseSolution
 from algos.v1 import Solver as V1Solver
 from algos.v2 import Solver as V2Solver
 from algos.v3 import Solver as V3Solver
 
-algos = {"v1": V1Solver, "v2": V2Solver, "v3": V3Solver}
+ALGOS = {"v1": V1Solver, "v2": V2Solver, "v3": V3Solver}
+DIFFICULTIES = {"medium": "", "hard": "/hard", "extreme": "/extreme"}
 
 
 def best_solution(solutions: Iterable[BaseSolution]) -> BaseSolution:
@@ -135,10 +136,41 @@ def run_interactive(solutions: list[BaseSolution], target: int, inputs: list[int
                     break
 
 
-if __name__ == "__main__":
+def fetch_daily_problem(difficulty: str) -> tuple[int, list[int]]:
+    """Fetch the daily problem for the given difficulty level from summle.net."""
+
+    url = "https://summle.net" + DIFFICULTIES[difficulty]
+    # window.puzzString contains the numbers and target as a comma-separated string
+    puzzle_pattern = r'window\.puzzString\s*=\s*"([^"]+)";'
+
+    with urlopen(url) as response:
+        html = response.read().decode("utf-8")
+
+    puzzle_match = re.search(puzzle_pattern, html)
+
+    if puzzle_match:
+        puzzle_string = puzzle_match.group(1)
+        puzzle_numbers = list(map(int, puzzle_string.split(",")))
+        target = puzzle_numbers[-1]
+        numbers = puzzle_numbers[:-1]
+        print(f"Fetched {difficulty} daily problem: target={target}, numbers={numbers}")
+        return target, numbers
+
+    raise ValueError("Could not find daily problem.")
+
+
+def main():
     parser = argparse.ArgumentParser(
-        description="Summle solver: given a target and a list of inputs, find all combinations of inputs that compute to the target value."
+        description="Summle solver. Helper for the summle.net number game. Accepts either a target and a list of integers, or a difficulty level (easy, medium, hard).",
+        epilog=(
+            "Examples:\n"
+            "  summle 831 100 3 7 9 25 50\n"
+            "  summle -v v3 -i 562 2 3 7 8 10\n"
+            "  summle hard\n"
+            "  summle -i medium\n"
+        ),
     )
+    # Add common arguments
     parser.add_argument(
         "-v",
         "--version",
@@ -149,22 +181,44 @@ if __name__ == "__main__":
     parser.add_argument(
         "-i", "--interactive", action="store_true", help="run in interactive mode"
     )
-    parser.add_argument("target", nargs=1, type=int, help="the target value to reach")
-    parser.add_argument(
-        "integers", nargs="+", type=int, help="the list of integer inputs"
-    )
-    args = parser.parse_args()
-    solutions = algos[args.version](args.integers).generate_solutions()
-    target = args.target[0]
-    if not target in solutions:
+
+    # Figure out if we have target + integers or difficulty
+    known_args, rest = parser.parse_known_args()
+
+    if not rest:
+        parser.error("Provide either: TARGET INTEGERS...  or  DIFFICULTY")
+
+    first = rest[0]
+    if first.isdigit():
+        # define parser for target + integers
+        direct = argparse.ArgumentParser(add_help=False)
+        direct.add_argument("target", type=int)
+        direct.add_argument("integers", type=int, nargs="+")
+        args = direct.parse_args(rest)
+        target = args.target
+        numbers = args.integers
+    elif (difficulty := first.lower()) in DIFFICULTIES.keys():
+        target, numbers = fetch_daily_problem(difficulty)
+    else:
+        parser.error(
+            f"Unrecognized difficulty level: {first}. Valid levels are: {', '.join(DIFFICULTIES.keys())}"
+        )
+
+    algo = ALGOS[known_args.version]
+    solutions = algo(numbers).generate_solutions()
+    if target not in solutions:
         print(f"Could not find a solution for {target}")
     else:
         solutions_for_target = solutions[target]
         solution = best_solution(solutions_for_target)
-        if args.interactive:
-            run_interactive(solutions_for_target, target, args.integers)
+        if known_args.interactive:
+            run_interactive(solutions_for_target, target, numbers)
         else:
             print(f"There are {len(solutions_for_target)} solutions for {target}.")
             explain_best = solution.explain(header=True)
             for line in explain_best:
                 print(line)
+
+
+if __name__ == "__main__":
+    main()

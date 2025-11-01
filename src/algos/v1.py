@@ -2,10 +2,9 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
 from operator import add, floordiv, mul, sub
-from typing import Callable, Iterable, Any
+from typing import Any, Callable, Iterable
 
 from algos.base import BaseSolution, BaseSolver
-
 
 """
 Define a tree-like type for formulas. In pseudo-Ocaml :

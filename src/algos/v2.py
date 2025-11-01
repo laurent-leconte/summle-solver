@@ -2,7 +2,8 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from itertools import combinations
 from operator import add, floordiv, mul, sub
-from typing import Callable, Optional, Iterable, Any
+from typing import Any, Callable, Optional
+
 from algos.base import BaseSolution, BaseSolver
 
 """

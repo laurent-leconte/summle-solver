@@ -1,10 +1,9 @@
-from ast import Call
-from time import perf_counter
-import gc
-from random import shuffle
 import cProfile
+import gc
 import pstats
-from typing import Callable, Tuple, List
+from random import shuffle
+from time import perf_counter
+from typing import Callable, List, Tuple
 
 from algos import v1 as summle_v1
 from algos import v2 as summle_v2

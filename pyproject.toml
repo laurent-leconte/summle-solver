@@ -4,34 +4,28 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "summle-solver"
-version = "0.1.0"
+version = "1.0.0"
 description = "Solver for Summle puzzles"
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
 authors = [
-    {name = "Laurent Leconte", email = "laurent-leconte@users.noreply.github.com"},
-]
-classifiers = [
-    "Development Status :: 3 - Alpha",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
+    {name = "Laurent Leconte", email = "laurent@lau.rent"},
 ]
 
-# No runtime dependencies - all imports are from Python standard library
-dependencies = []
+dependencies = [
+]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0",
     "mypy>=1.0",
-    "black>=22.0",
+    "ruff>=0.1.0",
     "flameprof>=0.4",
 ]
+
+[project.scripts]
+summle = "summle:main"
 
 [project.urls]
 "Homepage" = "https://github.com/laurent-leconte/summle-solver"
@@ -44,25 +38,6 @@ where = ["src"]
 [tool.setuptools.package-dir]
 "" = "src"
 
-[tool.black]
-line-length = 88
-target-version = ['py310']
-include = '\.pyi?$'
-extend-exclude = '''
-/(
-  # directories
-  \.eggs
-  | \.git
-  | \.hg
-  | \.mypy_cache
-  | \.tox
-  | \.venv
-  | build
-  | dist
-  | __pycache__
-)/
-'''
-
 [tool.mypy]
 python_version = "3.10"
 warn_return_any = true
@@ -71,6 +46,9 @@ disallow_untyped_defs = true
 disallow_incomplete_defs = true
 check_untyped_defs = true
 disallow_untyped_decorators = true
+mypy_path = "src"
+explicit_package_bases = true
+namespace_packages = true
 
 [tool.pytest.ini_options]
 testpaths = ["src/tests"]
